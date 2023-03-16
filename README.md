@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Application
 
  This assignment use Latest laravel version (10.0) and PHP Version (8.1). 
  To install this please clone this repo and run following commands 
@@ -50,7 +50,14 @@ if you change anything in env file please make sure you have to run these comman
 ## php artisan config:clear
 ## php artisan cache:clear
 
-By doing this this will pick the latest changes. I have tried to make this application super handy . if you have further question please feel free to connect with me on my handle. thanks 
+By doing this this will pick the latest changes. I have tried to make this application super handy . if you have further question please feel free to connect with me on my handle. thanks
+
+Login Creds will be same as api 
+
+email : ahsoka.tano@q.agency 
+password : Kryze4President
+
+
 
 
 
