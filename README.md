@@ -11,11 +11,11 @@
 
  This assignment use Latest laravel version (10.0) and PHP Version (8.1). 
  To install this please clone this repo and run following commands 
+  this will install all dependecies that require to run this application 
  - ## composer install
- this will install all dependecies that require to run this application 
- - ## npm install && npm run dev 
- this is for npm packages 
 
+ this is for npm packages 
+ - ## npm install && npm run dev 
  after that you have to run 
  please make sure you have vaild database connection in .env file and then run this command. 
 - ## php artisan migrate:fresh --seed 
@@ -47,7 +47,8 @@ if you change anything in env file please make sure you have to run these comman
 ## php artisan config:clear
 ## php artisan cache:clear
 
-By doing this this will pick the latest changes 
+By doing this this will pick the latest changes. I have tried to make this application super handy . if you have further question please feel free to connect with me on my handle. thanks 
+
 
 
 
