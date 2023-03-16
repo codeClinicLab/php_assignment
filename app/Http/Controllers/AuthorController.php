@@ -22,7 +22,9 @@ class AuthorController extends Controller
         $apiToken = Auth::user()->api_token; 
          
         $Details =  $this->getSingleAuthors($apiToken,$id); 
-         // echo "<pre>"; print_r($AuthorDetails); die;
+        if(isset($Details['code']) && $Details['code'] == 404){
+            return redirect()->back()->with(['error' => 'User Not Found']);
+        }
        
         return view('author-details',compact('Details'));
     }
@@ -46,7 +48,7 @@ class AuthorController extends Controller
         }
           curl_close($ch);
           $result = json_decode($result,true);
-         return redirect()->back()->with(['success' => 'Book Deleted']);;
+         return redirect()->back()->with(['success' => 'Book Deleted']);
         
 
     }
