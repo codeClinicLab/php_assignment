@@ -16,8 +16,11 @@
 
  this is for npm packages 
  - ## npm install && npm run dev 
- after that you have to run 
+ after that you have to run following commands . 
  please make sure you have vaild database connection in .env file and then run this command. 
+ I have already update .env.example file for you. you just need to rename this from 
+ .env.expample to .env 
+ 
 - ## php artisan migrate:fresh --seed 
 this will seed the user entry so that you can able to login with api user . 
 
