@@ -43,7 +43,8 @@ this will seed the user entry so that you can able to login with api user .
   - [Logout link or button.  ]
 
 
-.env file have ## API_URL so that you can changes api URL at any time .
+.env file have API_URL 
+ so that you can changes api URL at any time .
 
 if you change anything in env file please make sure you have to run these command 
 
