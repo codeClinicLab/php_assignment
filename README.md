@@ -11,33 +11,44 @@
 
  This assignment use Latest laravel version (10.0) and PHP Version (8.1). 
  To install this please clone this repo and run following commands 
- - [composer install]  
+ - ## composer install
  this will install all dependecies that require to run this application 
- - [npm install && npm run dev ]
+ - ## npm install && npm run dev 
  this is for npm packages 
 
  after that you have to run 
  please make sure you have vaild database connection in .env file and then run this command. 
-- [php artisan migrate:fresh --seed ]
+- ## php artisan migrate:fresh --seed 
 this will seed the user entry so that you can able to login with api user . 
 
- - [php artisan serve ]
+ - ## php artisan serve 
  this will serve your application   
 
  By this command you can Create Random Author as it is cli command
- - [ php artisan app:create-author ]
+ - ## php artisan app:create-author 
 
 
  ## Feature of Application 
-  -[login page that uses Symfony Skeleton API, retrieve the access token]
-  -[list of Authors from the API, and display them in a table layout]
-  -[User can able to delete the author if there are no related books for this author]
-  -[view page for single authors and their books]
-  -[CLI command created add a new author . php artisan app:create-author  ]
-  -[single author view, is able to delete books (one by one)  ]
-  -[User can add a new Book and select Authors from a dropdown menu  ]
-  -[User first name and last name displayed at navbar]
-  -[Logout link or button.  ]
+  - [login page that uses Symfony Skeleton API, retrieve the access token]
+  - [list of Authors from the API, and display them in a table layout]
+  - [User can able to delete the author if there are no related books for this author]
+  - [view page for single authors and their books]
+  - [CLI command created add a new author . php artisan app:create-author  ]
+  - [single author view, is able to delete books (one by one)  ]
+  - [User can add a new Book and select Authors from a dropdown menu  ]
+  - [User first name and last name displayed at navbar]
+  - [Logout link or button.  ]
+
+
+.env file have API_URL so that you can changes api URL at any time .
+
+if you change anything in env file please make sure you have to run these command 
+
+## php artisan config:clear
+## php artisan cache:clear
+
+By doing this this will pick the latest changes 
+
 
 
 
