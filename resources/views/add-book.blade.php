@@ -32,6 +32,7 @@
                             <div class="col-md-6">
                                 <label>Author</label>
                                 <select class="form-control" required name="author_id"> 
+                                     <option value="">Select Author</option>
                                     @foreach($authors['items'] as $author)
                                     <option value="{{ $author['id'] }}"> {{ $author['first_name'] . ' ' . $author['last_name'] }}</option>
                                     @endforeach
