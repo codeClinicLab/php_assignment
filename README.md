@@ -43,7 +43,7 @@ this will seed the user entry so that you can able to login with api user .
   - [Logout link or button.  ]
 
 
-.env file have API_URL so that you can changes api URL at any time .
+.env file have ## API_URL so that you can changes api URL at any time .
 
 if you change anything in env file please make sure you have to run these command 
 
@@ -55,6 +55,7 @@ By doing this this will pick the latest changes. I have tried to make this appli
 Login Creds will be same as api 
 
 email : ahsoka.tano@q.agency 
+
 password : Kryze4President
 
 
